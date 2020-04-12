@@ -1,0 +1,52 @@
+Operacion crearCC: Asigna la memoria para la matriz que representa el centro comercial
+    -Entradas: las dimensiones de la matriz
+    -Salidas: La matriz creada
+    -Conceptos Usados: Memoria dinamica para crear la matriz
+
+Operacion crearLocal: Crea un local en una posicion que no estuviera ocupada
+    -Entradas: La matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz 
+                        y enums para el estado de cada local
+
+Operacion mostrarPiso: Muestra recursivamente los locales de un piso
+    -Entradas: las matriz y sus dimensiones, el piso a mostrar y el local en el que va
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y recursion para recorrer el piso
+
+Operacion buscarNombre: Imprime los datos de un local que se busca por nombre
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y enums al revisar el estado del local
+
+Operacion cambiarNombreLocal: Cambia el nombre de un local dado su nombre actual
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y usa la funcion editarNombre
+
+Operacion cambiarEstado: Alterna el estado de un local que se busca por nombre
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y enums, ya que edita el estado de un local
+
+Operacion realizarCompra: Registra una compra para un local que se busca por nombre
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y enums, ya que revisa el estado del local
+
+Operacion eliminarLocal: Elimina un local que esta ocupado
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+
+Operacion construirPiso: Añade un piso nuevo al centro comercial para aumentar su capacidad
+    -Entradas: las matriz y sus dimensiones
+    -Salidas: Ninguna
+    -Conceptos Usados: Parametros por referencia, ya que recibe el puntero de la matriz
+                        y memoria dinamica, ya que edita el tamaño de la matriz
+                       
