@@ -3,7 +3,7 @@
 
 enum Gender
 {
-    Male,
+    c,
     Female
 };
 

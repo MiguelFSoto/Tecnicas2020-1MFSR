@@ -1,5 +1,7 @@
 #include "users.h"
 
+/* Me gusta tu código. Para ajustar el tema de la mayuscula sostenida de los enums */
+
 int menu()
 {
     int option;
